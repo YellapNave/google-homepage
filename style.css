@@ -28,11 +28,11 @@
     text-decoration: none;
 }
 
-.leftlinks:visited {
+.a:visited {
     color: #000;
 }
 
-.leftlinks:hover {
+.a:hover {
     text-decoration: underline;
 }
 
