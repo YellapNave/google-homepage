@@ -1,7 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #logo {
     display: block;
     margin: auto;
-    width: 272;
-    height: 92;
     padding-top: 109px;
+}
+
+#logodiv {
+    height: 233px;
+    margin-top: 47px;
+}
+
+#leftlinksdiv {
+    position: relative;
+    margin: 7px 0px 0px 10px;
+    top: 16px;
+}
+
+.leftlinks {
+    display: inline-block;
+    padding-left: 15px;
+    opacity: 75%;
+    color: #000;
+    text-decoration: none;
+}
+
+.leftlinks:visited {
+    color: #000;
+}
+
+.leftlinks:hover {
+    text-decoration: underline;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 100%;
 }
